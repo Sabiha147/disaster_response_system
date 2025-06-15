@@ -1,5 +1,8 @@
 # Disaster Response System (DRS)
 
+In today’s rapidly changing environment, the need for responsive, secure, and scalable disaster response systems is more critical than ever. The DRS-Enhanced application developed for this project addresses these needs by enabling real-time coordination, secure data handling, and effective multi-agency communication during emergencies. Built using Java, JavaFX, and MySQL, and structured with the MVC architecture, the system provides a user-friendly interface and a robust backend to support disaster scenarios such as floods, fires, or earthquakes. This report presents the design, implementation, and testing of the system, with a focus on usability, security, and architectural soundness.
+
+
 This project is a **JavaFX-based Disaster Response System (DRS)** built as part of the COIT20258 assignment. It includes user login functionality, disaster reporting, manager-level department assignments, responder marking, and proper JUnit-based testing of the system's core logic.
 
 ---
