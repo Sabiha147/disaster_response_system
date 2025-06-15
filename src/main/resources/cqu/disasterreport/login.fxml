@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cqu.disasterreport.LoginController">
+   <children>
+      <VBox spacing="10" alignment="CENTER" layoutX="50.0" layoutY="50.0" prefWidth="300">
+            <Label text="Login Panel" style="-fx-font-size: 18px;"/>
+            <TextField fx:id="usernameField" promptText="Username" />
+            <PasswordField fx:id="passwordField" promptText="Password" />
+            <Button text="Login" onAction="#handleLogin" />
+            <Label fx:id="messageLabel" textFill="red" />
+            <Button layoutX="200.0" layoutY="300.0" mnemonicParsing="false" text="Report Disaster (Civilian)" onAction="#goToCivilian" />
+        </VBox>
+   </children>
+</AnchorPane>

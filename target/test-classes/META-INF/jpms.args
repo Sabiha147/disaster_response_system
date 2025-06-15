@@ -1,0 +1,4 @@
+--patch-module
+cqu.disasterreport=_
+--add-reads
+cqu.disasterreport=ALL-UNNAMED

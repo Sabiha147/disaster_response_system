@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="dao.DisasterReportDAOTest" time="2.646" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\proCodeZone\Documents\NetBeansProjects\DisasterReport\target\test-classes;C:\Users\proCodeZone\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13.jar;C:\Users\proCodeZone\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13.jar;C:\Users\proCodeZone\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13.jar;C:\Users\proCodeZone\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13.jar;C:\Users\proCodeZone\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\proCodeZone\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\proCodeZone\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\proCodeZone\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\proCodeZone\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\proCodeZone\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\proCodeZone\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\proCodeZone\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\proCodeZone\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\proCodeZone\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Asia/Dhaka"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\java\zulu22.32.15-ca-fx-jdk22.0.2-win_x64\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\proCodeZone\AppData\Local\Temp\surefire16836166480745730877 2025-06-15T12-22-20_887-jvmRun1 surefire-20250615122222160_1tmp surefire_0-20250615122222160_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\proCodeZone\Documents\NetBeansProjects\DisasterReport\target\test-classes;C:\Users\proCodeZone\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13.jar;C:\Users\proCodeZone\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13.jar;C:\Users\proCodeZone\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13.jar;C:\Users\proCodeZone\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13.jar;C:\Users\proCodeZone\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\proCodeZone\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\proCodeZone\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\proCodeZone\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\proCodeZone\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\proCodeZone\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\proCodeZone\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\proCodeZone\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\proCodeZone\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\proCodeZone\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\proCodeZone"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="C:\Users\proCodeZone\Documents\NetBeansProjects\DisasterReport\target\classes;C:\Users\proCodeZone\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13-win.jar;C:\Users\proCodeZone\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13-win.jar;C:\Users\proCodeZone\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13-win.jar;C:\Users\proCodeZone\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13-win.jar"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\java\zulu22.32.15-ca-fx-jdk22.0.2-win_x64"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\proCodeZone\Documents\NetBeansProjects\DisasterReport"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\proCodeZone\.m2\repository\org\apache\maven\surefire\surefire-api\3.1.2\surefire-api-3.1.2.jar;C:\Users\proCodeZone\.m2\repository\org\apache\maven\surefire\surefire-booter\3.1.2\surefire-booter-3.1.2.jar;C:\Users\proCodeZone\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.1.2\surefire-extensions-spi-3.1.2.jar;C:\Users\proCodeZone\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.1.2\surefire-logger-api-3.1.2.jar;C:\Users\proCodeZone\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.1.2\surefire-shared-utils-3.1.2.jar;C:\Users\proCodeZone\Documents\NetBeansProjects\DisasterReport\target\test-classes;C:\Users\proCodeZone\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13.jar;C:\Users\proCodeZone\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13.jar;C:\Users\proCodeZone\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13.jar;C:\Users\proCodeZone\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13.jar;C:\Users\proCodeZone\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\proCodeZone\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\proCodeZone\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\proCodeZone\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\proCodeZone\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\proCodeZone\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\proCodeZone\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\proCodeZone\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\proCodeZone\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\proCodeZone\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\proCodeZone\.m2\repository\org\apache\maven\surefire\surefire-junit-platform\3.1.2\surefire-junit-platform-3.1.2.jar;C:\Users\proCodeZone\.m2\repository\org\apache\maven\surefire\common-java5\3.1.2\common-java5-3.1.2.jar;C:\Users\proCodeZone\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.0\junit-platform-launcher-1.10.0.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.2+9"/>
+    <property name="user.name" value="Biddrup Kumar Mallic"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu22.32+15-CA"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-17\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\proCodeZone\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\PROCOD~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="C:\Users\proCodeZone\Documents\NetBeansProjects\DisasterReport"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\java\zulu22.32.15-ca-fx-jdk22.0.2-win_x64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft\jdk-11.0.18.10-hotspot\bin;C:\Program Files\Microsoft\jdk-17.0.11.9-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\chocolatey\bin;C:\Users\proCodeZone\AppData\Local\Android\Sdk\platform-tools;C:\Users\proCodeZone\AppData\Local\Android\Sdk\emulator;C:\Users\proCodeZone\AppData\Local\Android\Sdk\platforms;C:\Users\proCodeZone\AppData\Local\Android\Sdk\build-tools;C:\Users\proCodeZone\AppData\Local\Android\Sdk\tools;C:\Users\proCodeZone\AppData\Local\Android\Sdk\tools\bin;C:\Users\proCodeZone\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Program Files\dotnet\;C:\Users\proCodeZone\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\php-8.4.5;C:\ProgramData\ComposerSetup\bin;C:\Users\proCodeZone\.config\herd\bin;C:\Users\proCodeZone\.console-ninja\.bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\proCodeZone\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\proCodeZone\AppData\Local\Programs\Python\Python310\;C:\Users\proCodeZone\AppData\Local\Microsoft\WindowsApps;C:\Users\proCodeZone\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\proCodeZone\AppData\Roaming\npm;C:\Users\proCodeZone\AppData\Local\Android\Sdk\platform-tools;C:\Users\proCodeZone\AppData\Local\Android\Sdk\emulator;C:\Users\proCodeZone\AppData\Local\GitHubDesktop\bin;C:\Users\proCodeZone\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\PostgreSQL\16\bin;C:\Users\proCodeZone\AppData\Local\Android\Sdk\platforms;C:\Users\proCodeZone\AppData\Local\Android\Sdk\build-tools;C:\Users\proCodeZone\AppData\Local\Android\Sdk\tools;C:\Users\proCodeZone\AppData\Local\Android\Sdk\tools\bin;C:\Users\proCodeZone\AppData\Local\Android\Sdk\cmdline-tools\10.0\bin;C:\Users\proCodeZone\AppData\Local\Android\Sdk\cmdline-tools\latest\bin;C:\Users\proCodeZone\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\proCodeZone\AppData\Roaming\Composer\vendor\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="22.0.2+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="testUpdateAssignedDepartment" classname="dao.DisasterReportDAOTest" time="2.167"/>
+  <testcase name="testUpdateInvalidIdShouldNotCrash" classname="dao.DisasterReportDAOTest" time="0.071"/>
+  <testcase name="testPrioritySorting" classname="dao.DisasterReportDAOTest" time="0.041"/>
+  <testcase name="testInsertAndFetch" classname="dao.DisasterReportDAOTest" time="0.166"/>
+  <testcase name="testInsertWithMissingFieldsShouldFail" classname="dao.DisasterReportDAOTest" time="0.033"/>
+  <testcase name="testMarkDisasterAsHandled" classname="dao.DisasterReportDAOTest" time="0.091"/>
+</testsuite>
